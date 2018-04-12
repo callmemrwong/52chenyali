@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<!--[if lte IE 8]>               <html class="ie8 no-js" lang="en">    <![endif]-->
-<!--[if lte IE 10]>				 <html class="ie10 no-js" lang="en">   <![endif]-->
-<!--[if !IE]>-->				 <html class="not-ie no-js" lang="en"> <!--<![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en">  <!--<![endif]-->
 <head>
 	
 	<!-- Google Web Fonts
@@ -36,7 +35,6 @@
 	<link rel="stylesheet" href="css/fontello.css" />
 	<link rel="stylesheet" href="css/animation.css" />
 	
-	<link rel="stylesheet" href="js/layerslider/css/layerslider.css" />
 	<link rel="stylesheet" href="js/flexslider/flexslider.css" />
 	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" />
 	
@@ -48,14 +46,6 @@
 
 <body data-spy="scroll" data-target="#navigation" class="home">
 	
-	<!-- - - - - - - - - - - - - - Loader - - - - - - - - - - - - - - - - -->	
-
-	
-	<div class="loader"></div><!--/ .loader-->
-	
-	
-	<!-- - - - - - - - - - - - - end Loader - - - - - - - - - - - - - - - -->	
-
 	
 	<!-- - - - - - - - - - - - - - BG Video - - - - - - - - - - - - - - - - -->		
 
@@ -71,9 +61,18 @@
 		ratio: '16/9', 
 		addRaster: false }">
 	</a>
-	
+
 
 	<!-- - - - - - - - - - - - - end BG Video - - - - - - - - - - - - - - - -->	
+	
+	
+	<!-- - - - - - - - - - - - - - Loader - - - - - - - - - - - - - - - - -->	
+
+	
+	<div class="loader"></div><!--/ .loader-->
+	
+	
+	<!-- - - - - - - - - - - - - end Loader - - - - - - - - - - - - - - - -->	
 	
 	
 <!-- - - - - - - - - - - - - - Header - - - - - - - - - - - - - - - - -->	
@@ -81,7 +80,7 @@
 
 <header id="header" class="transparent">
 	
-	<div class="header-in clearfix">
+	<div class="header-in">
 		
 		<h1 id="logo"><a href="index.html">Accio</a></h1>
 		
@@ -92,8 +91,8 @@
 			<ul>
 				<li class="current-menu-item"><a href="#home">Home</a>
 					<ul>
-						<li class="current-menu-item"><a href="index.html">Layer Slider</a></li>
-						<li><a href="index-3.html">Slider Parallax</a></li>
+						<li><a href="index.html">Layer Slider</a></li>
+						<li class="current-menu-item"><a href="index-3.html">Slider Parallax</a></li>
 						<li><a href="index-2.html">Video Background</a>
 							<ul>
 								<li><a href="index-2.html">Youtube Video</a></li>
@@ -111,7 +110,7 @@
 				<li><a href="#pricing">Pricing</a></li>
 				<li><a href="#contacts">Contacts</a></li>
 				<li><a href="shortcodes.html">Shortcodes</a></li>
-				<li><a href="http://www.cssmoban.com">More</a></li>
+				<li><a href="http://www.weidea.net">More</a></li>
 			</ul>
 
 		</nav><!--/ #navigation-->
@@ -123,7 +122,7 @@
 
 <!-- - - - - - - - - - - - - end Header - - - - - - - - - - - - - - - -->
 
-<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >免费模板</a></div>
+
 <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
 	
 
@@ -133,62 +132,44 @@
 		
 		<section class="section padding-off">
 			
-			<div id="layerslider-container">
-				
-				<div id="layerslider">
-
-					<div class="ls-layer" style="slidedirection: left; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; timeshift: -500;">
-						
-						<img alt="" class="ls-bg" src="images/banner1.jpg">
-						
-						<h1 class="ls-s2 align-center" style="top: 43%; left: 130px; slidedirection : top; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;">
-							We Do awesome
-						</h1>
-						
-						<h1 class="ls-s2 align-center" style="top: 57%; left: 380px; slidedirection : bottom; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;">
-							themes
-						</h1>
-						
-					</div><!--/ .ls-layer-->
-					
-					<div class="ls-layer" style="slidedirection: right; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; timeshift: -500;">
-					
-						<img alt="" class="ls-bg" src="images/banner2.jpg">
-						
-						<h1 class="ls-s2 align-center" style="top: 43%; left: 180px; slidedirection : top; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;">
-							We really love
-						</h1>
-						
-						<h1 class="ls-s2 align-center" style="top: 57%; left: 260px; slidedirection : bottom; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;">
-							what we do
-						</h1>
-						
-					</div><!--/ .ls-layer-->
-					
-					<div class="ls-layer" style="slidedirection: right; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; timeshift: -500;">
-					
-						<img alt="" class="ls-bg" src="images/banner3.jpg">
-						
-						<h1 class="ls-s2 align-center" style="top: 43%; left: 360px; slidedirection : top; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;">
-							and do
-						</h1>
-						
-						<h1 class="ls-s2 align-center" style="top: 57%; left: 170px; slidedirection : bottom; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;">
-							what we love!
-						</h1>
-						
-					</div><!--/ .ls-layer-->
-
-				</div><!--/ #layerslider-->
-
-			</div><!--/ #layerslider-container-->	
-
-			<ul class="keydown">
-				<li class="up"></li>
-				<li class="left"></li>
-				<li class="down"></li>
-				<li class="right"></li>
-			</ul><!--/ .keydown-->	
+			<div id="slides">
+				<ul class="slides-container">
+					<li>
+						<div style="background-image: url('http://placehold.it/2045x950');" class="fullscreen-image">
+							<div class="parallax-overlay"></div>
+							<div class="header-text-entry">
+								<div class="header-text">
+									<h1>We Do awesome <br /> themes</h1>
+								</div>	
+							</div><!--/ .header-text-entry-->
+						</div><!--/ .fullscreen-image-->
+					</li>
+					<li>
+						<div style="background-image: url('http://placehold.it/2045x950');" class="fullscreen-image">
+							<div class="parallax-overlay"></div>
+							<div class="header-text-entry">
+								<div class="header-text">
+									<h1>beautiful & <br /> clean</h1>
+								</div>
+							</div><!--/ .header-text-entry-->
+						</div><!--/ .fullscreen-image-->
+					</li>
+					<li>
+						<div style="background-image: url('http://placehold.it/2045x950');" class="fullscreen-image">
+							<div class="parallax-overlay"></div>
+							<div class="header-text-entry">
+								<div class="header-text">
+									<h1>Made with <br /> love</h1>
+								</div>	
+							</div><!--/ .header-text-entry-->
+						</div><!--/ .fullscreen-image-->
+					</li>
+				</ul>
+				<nav class="slides-navigation">
+					<a href="#" class="prev">1</a>
+					<a href="#" class="next">2</a>
+				</nav>
+			</div><!--/ #slides-->
 			
 		</section><!--/ .section-->
 		
@@ -204,7 +185,7 @@
 					
 					<div class="col-xs-12">
 						<hgroup class="slogan align-center opacity">
-							<h1>To Make Your Life <span>Easier</span> – Is Our Top Priority - shared on mobantu.com</h1>
+							<h1>To Make Your Life <span>Easier</span> – Is Our Top Priority</h1>
 							<h2>we are driving crazy with each and every web-miracle we work on</h2>	
 						</hgroup>	
 					</div>
@@ -1288,11 +1269,6 @@
 							<p class="input-block">
 								<textarea name="message" id="message" placeholder="Message *"></textarea>	
 							</p>
-							
-							<p class="input-block">
-								<iframe src="php/capcha_page.php" height="50" width="100" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" class="capcha-frame" name="capcha_image_frame"></iframe>
-								<input class="verify" type="text" id="verify" name="verify" />
-							</p>	
 
 							<p class="input-block">
 								<button class="button turquoise submit" type="submit" id="submit"><i class="icon-paper-plane-2"></i></button>
@@ -1411,8 +1387,7 @@
 <script src="js/waypoints.min.js"></script>
 <script src="js/jquery.easing.1.3.min.js"></script>
 <script src="js/jquery.cycle.all.min.js"></script>
-<script src="js/layerslider/js/layerslider.transitions.js"></script>
-<script src="js/layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
+<script src="js/jquery.superslides.min.js"></script>
 <script src="js/jquery.mixitup.js"></script>
 <script src="js/jquery.mb.YTPlayer.js"></script>
 <script src="js/jquery.smoothscroll.js"></script>
@@ -1424,6 +1399,6 @@
 <script src="js/jquery.touchswipe.min.js"></script>
 <script src="js/config.js"></script>
 <script src="js/custom.js"></script>
-
+      
 </body>
 </html>
